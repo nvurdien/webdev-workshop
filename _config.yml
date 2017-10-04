@@ -23,6 +23,13 @@ links:
   - globe: {url: "https://nvurdien.github.io/", square: false}
   - envelope: {url: "mailto:nvurdien@gmail.com", square: true}
 
+collections:
+  pages:
+    output: true
+    permalink: /:collections/:path/
+
+
+
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
 permalink: pretty
