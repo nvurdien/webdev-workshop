@@ -1,6 +1,5 @@
 ---
 title:  "HTML Tutorial"
-date:   2014-09-10 22:37:00
 categories: tutorials
 ---
 
