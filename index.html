@@ -2,14 +2,14 @@
 layout: blank
 ---
 <main>
-  {% for page in site.pages %}
+  {% for guide in site.guides %}
   <article class="{% if site.style.articles == 'stripe' %}{% cycle 'light', 'dark' %}{% else %}{{ site.style.articles }}{% endif %}">
     <header>
-      <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+      <h2><a href="{{ site.baseurl }}{{ guide.url }}">{{ guide.title }}</a></h2>
       <!-- <span>{% if page.categories and page.categories != empty %} • {{ page.categories | array_to_sentence_string }}{% endif %}</span> -->
     </header>
     <div>
-{{ page.content }}
+{{ guide.content }}
     </div>
     <!-- <footer>
       <p>{% unless page.excerpt == page.content %}<a class="ghost" href="{{ page.url | prepend: site.baseurl }}">{{ site.more }}</a>{% endunless %}</p>
