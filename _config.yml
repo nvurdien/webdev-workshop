@@ -26,7 +26,6 @@ links:
 collections:
   pages:
     output: true
-    permalink: /:collection/:path/
 
 
 
