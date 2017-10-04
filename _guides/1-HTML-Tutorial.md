@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: guides
 title:  "HTML Tutorial"
 categories: tutorials
 ---

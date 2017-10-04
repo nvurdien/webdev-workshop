@@ -24,7 +24,7 @@ links:
   - envelope: {url: "mailto:nvurdien@gmail.com", square: true}
 
 collections:
-  pages:
+  guides:
     output: true
 
 
