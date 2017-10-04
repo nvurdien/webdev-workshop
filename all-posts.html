@@ -1,6 +1,12 @@
 ---
 title: "All Posts"
 ---
+<header>
+  <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  <nav>
+    <li><a href="{{ site.baseurl }}/">Home</a></li><li><a href="/all-posts" class="selected">All Posts</a></li>
+  </nav>
+</header>
 <ul>
   {% for page in site.pages %}
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
