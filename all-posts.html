@@ -2,7 +2,7 @@
 title: "All Posts"
 ---
 <ul>
-  {% for post in site.posts %}
-  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  {% for page in site.pages %}
+  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
   {% endfor %}
 </ul>
