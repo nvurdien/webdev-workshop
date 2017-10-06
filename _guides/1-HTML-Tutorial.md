@@ -9,23 +9,23 @@ categories: tutorials
   * Tags
   * Header (Including files, titles, etc)
   * Comments
-  * Attributes
   * Commonly Used Tags
+  * Self-closing tags
   * Lists (ordered & unordered)
   * Attributes
 
 ----
 
-###Tags
+<h2>Tags</h2>
 
-####General Rule
+<h3>General Rule</h3>
 {% highlight HTML %}
 
 <tagname> Hello World </tagname>
 
 {% endhighlight %}
 
-###Header
+<h2>Header</h2>
 For the beginning of your HTML documents it is good practice to specify the document type with:
 {% highlight HTML %}
 <!DOCTYPE html>
@@ -62,7 +62,7 @@ A typical html document would have an outline like the one shown below:
 {% endhighlight %}
 
 
-###Comments
+<h2>Comments</h2>
 Comments are an essential part of every coding language for HTML, if you haven't noticed already look like the example provided below
 {% highlight HTML %}
 <!--Hello I am a comment-->
@@ -70,10 +70,10 @@ Comments are an essential part of every coding language for HTML, if you haven't
 
 You will use this to describe sections of your code as well as better organize your code!
 
-###Commonly Used Tags
+<h2>Commonly Used Tags</h2>
 You will use these on many HTML document!
 
-#####Bold
+<h3>Bold</h3>
 {% highlight HTML %}
 
 <b> Hello World </b>
@@ -85,7 +85,7 @@ You will use these on many HTML document!
 <b> This is with a b tag </b><BR>
 <strong> This is with a strong tag </strong>
 
-#####Italics
+<h3>Italics</h3>
 {% highlight HTML %}
 
 <i> Hello World </i>
@@ -94,7 +94,7 @@ You will use these on many HTML document!
 
 <i> This is with a i tag </i>
 
-#####Underline
+<h3>Underline</h3>
 {% highlight HTML %}
 
 <u> Hello World </u>
@@ -103,7 +103,7 @@ You will use these on many HTML document!
 
 <u> This is with a u tag </u>
 
-#####H tag (headers)
+<h3>H tag (headers)</h3>
 These are like all the headers you see on this page. Your headers may look different from this website because you haven't added styling yet.
 {% highlight HTML %}
 
@@ -119,7 +119,7 @@ These are like all the headers you see on this page. Your headers may look diffe
 <h1> This is with a h1 tag </h1>
 
 
-#####Paragraph tag
+<h3>Paragraph tag</h3>
 This is used to signify a paragraph.
 {% highlight HTML %}
 
@@ -129,9 +129,9 @@ This is used to signify a paragraph.
 
 <p> This is with a h1 tag </p>
 
-####Self Closing Tags
+<h2>Self Closing Tags</h2>
 Self closing tags are tags that do not need a closing tag like the examples above.
-#####Image Tag
+<h3>Image Tag</h3>
 This tag allows you to display an image on your page
 {% highlight HTML %}
 
@@ -141,8 +141,8 @@ This tag allows you to display an image on your page
 
 <img src="/img/acm-desktopcta.png">
 
-###Lists(ordered & unordered)
-An unordered list is a bulleted list or any symboled list.
+<h3>Lists(ordered & unordered)</h3>
+An **unordered** list is a bulleted list or any symboled list.
 {% highlight HTML %}
 <ul><!--signifies start of unordered list-->
   <li>Hello</li><!--first bullet point-->
@@ -153,7 +153,7 @@ An unordered list is a bulleted list or any symboled list.
  * Hello
  * World
 
- An ordered list is a numbered list.
+ An **ordered** list is a numbered list.
  {% highlight HTML %}
  <ol><!--signifies start of ordered list-->
    <li>Hello</li><!--first point-->
