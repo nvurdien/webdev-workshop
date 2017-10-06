@@ -139,7 +139,7 @@ This tag allows you to display an image on your page
 
 {% endhighlight %}
 
-<img src="https://imgur.com/qFxJTtS">
+<img src="https://imgur.com/qFxJTtS"/>
 ![puppy-cheeks](https://imgur.com/qFxJTtS)
 
 
