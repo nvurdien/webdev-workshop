@@ -135,13 +135,13 @@ Self closing tags are tags that do not need a closing tag like the examples abov
 This tag allows you to display an image on your page
 {% highlight HTML %}
 
-<img src="/img/acm-desktopcta.png">
+<img src="https://imgur.com/qFxJTtS">
 
 {% endhighlight %}
 
-<img src="/img/acm-desktopcta.png">
+<img src="https://imgur.com/qFxJTtS">
 
-<h3>Lists(ordered & unordered)</h3>
+<h2>Lists(ordered & unordered)</h2>
 An **unordered** list is a bulleted list or any symboled list.
 {% highlight HTML %}
 <ul><!--signifies start of unordered list-->
