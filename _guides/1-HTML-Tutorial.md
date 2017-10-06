@@ -138,8 +138,13 @@ This tag allows you to display an image on your page
 <img src="https://imgur.com/qFxJTtS">
 
 {% endhighlight %}
+<img src="https://imgur.com/qFxJTtS.gif">
 
+<<<<<<< HEAD
 <img src="https://imgur.com/qFxJTtS"/>
+=======
+![](https://imgur.com/qFxJTtS.gif)
+>>>>>>> 611b4cfbee7315e5ced2907ae70ee329c55a6f57
 
 
 <h2>Lists(ordered & unordered)</h2>
