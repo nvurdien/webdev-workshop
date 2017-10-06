@@ -138,6 +138,7 @@ This tag allows you to display an image on your page
 <img src="https://imgur.com/qFxJTtS">
 
 {% endhighlight %}
+<img src="https://imgur.com/qFxJTtS.gif">
 
 ![](https://imgur.com/qFxJTtS.gif)
 
