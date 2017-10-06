@@ -140,7 +140,6 @@ This tag allows you to display an image on your page
 {% endhighlight %}
 
 <img src="https://imgur.com/qFxJTtS"/>
-![puppy-cheeks](https://imgur.com/qFxJTtS)
 
 
 <h2>Lists(ordered & unordered)</h2>
