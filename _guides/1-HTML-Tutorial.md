@@ -140,6 +140,8 @@ This tag allows you to display an image on your page
 {% endhighlight %}
 
 <img src="https://imgur.com/qFxJTtS">
+![puppy-cheeks](https://imgur.com/qFxJTtS){:class="img-responsive"}
+
 
 <h2>Lists(ordered & unordered)</h2>
 An **unordered** list is a bulleted list or any symboled list.
