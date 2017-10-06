@@ -3,31 +3,77 @@ layout: guides
 title:  "HTML Tutorial"
 categories: tutorials
 ---
+<!--  *italic*  **bold**  ***bold/italic***  [link](http://cjdns.info/) -->
 
 **What to Expect**
   * Tags
   * Header (Including files, titles, etc)
   * Comments
   * Attributes
-  * Text Decorations
+  * Commonly Used Tags
   * Lists (ordered & unordered)
-  * Tables
+  * Attributes
 
 ----
 
-**Tags**
+###Tags
 
-## General Rule
+####General Rule
 {% highlight HTML %}
 
 <tagname> Hello World </tagname>
 
 {% endhighlight %}
 
-## Commonly Used Tags
-You can practice these on any HTML document!
+###Header
+For the beginning of your HTML documents it is good practice to specify the document type with:
+{% highlight HTML %}
+<!DOCTYPE html>
+{% endhighlight %}
 
-### Bold
+In order for the computer to easily identify what type of document it is. You can also enclose all your HTML with an html tag like so,
+{% highlight HTML %}
+
+<html>
+<!--Content Here-->
+</html>
+
+{% endhighlight %}
+
+In addition, developers generally put external stylesheets and other definition tags within header tags like so,
+{% highlight HTML %}
+<head>
+  <link rel="stylesheet" href="/stylesheet_directory"/><!--You would place your external style file in this tag-->
+  <title>Page Homepage</title> <!--Title of the page usually appears on tab-->
+</head>
+{% endhighlight %}
+
+A typical html document would have an outline like the one shown below:
+{% highlight HTML %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--external files or metadata here-->
+    <title></title>
+  </head>
+  <body>
+  </body>
+</html>
+{% endhighlight %}
+
+
+###Comments
+Comments are an essential part of every coding language for HTML, if you haven't noticed already look like the example provided below
+{% highlight HTML %}
+<!--Hello I am a comment-->
+{% endhighlight %}
+
+You will use this to describe sections of your code as well as better organize your code!
+
+###Commonly Used Tags
+You will use these on many HTML document!
+
+#####Bold
 {% highlight HTML %}
 
 <b> Hello World </b>
@@ -36,38 +82,84 @@ You can practice these on any HTML document!
 
 {% endhighlight %}
 
-<b> This is with a b tag </b>
+<b> This is with a b tag </b><BR>
 <strong> This is with a strong tag </strong>
 
+#####Italics
+{% highlight HTML %}
 
-Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet, [consectetur](http://cjdns.info/), adipisci velit.
-
- * lorem
- * ipsum
-
-1. dolor
-2. sit
-
-| First Header | Second Header |
-|--------------|---------------|
-| Table Cell   | Table Cell    |
-
-**Blockquote**
-
-> They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
->
-> _Benjamin Franklin_
-
-**Code**
-
-{% highlight c %}
-
-static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
-{
-    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
-    int64_t enabled = admin->asyncEnabled;
-    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
-    Admin_sendMessage(&d, txid, admin);
-}
+<i> Hello World </i>
 
 {% endhighlight %}
+
+<i> This is with a i tag </i>
+
+#####Underline
+{% highlight HTML %}
+
+<u> Hello World </u>
+
+{% endhighlight %}
+
+<u> This is with a u tag </u>
+
+#####H tag (headers)
+These are like all the headers you see on this page. Your headers may look different from this website because you haven't added styling yet.
+{% highlight HTML %}
+
+<h1> Hello World </h1>
+<h2> Hello World </h2>
+<h3> Hello World </h3>
+<h4> Hello World </h4>
+<h5> Hello World </h5>
+<!--and so on ...-->
+
+{% endhighlight %}
+
+<h1> This is with a h1 tag </h1>
+
+
+#####Paragraph tag
+This is used to signify a paragraph.
+{% highlight HTML %}
+
+<p> Hello World </p>
+
+{% endhighlight %}
+
+<p> This is with a h1 tag </p>
+
+####Self Closing Tags
+Self closing tags are tags that do not need a closing tag like the examples above.
+#####Image Tag
+This tag allows you to display an image on your page
+{% highlight HTML %}
+
+<img src="/img/acm-desktopcta.png">
+
+{% endhighlight %}
+
+<img src="/img/acm-desktopcta.png">
+
+###Lists(ordered & unordered)
+An unordered list is a bulleted list or any symboled list.
+{% highlight HTML %}
+<ul><!--signifies start of unordered list-->
+  <li>Hello</li><!--first bullet point-->
+  <li>World</li><!--second bullet point-->
+</ul><!--signifies end of unordered list-->
+{% endhighlight %}
+
+ * Hello
+ * World
+
+ An ordered list is a numbered list.
+ {% highlight HTML %}
+ <ol><!--signifies start of ordered list-->
+   <li>Hello</li><!--first point-->
+   <li>World</li><!--second point-->
+ </ol><!--signifies end of ordered list-->
+ {% endhighlight %}
+
+1. Hello
+2. World
