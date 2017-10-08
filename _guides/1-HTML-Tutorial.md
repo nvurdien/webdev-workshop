@@ -132,14 +132,14 @@ This is used to signify a paragraph.
 <h2>Self Closing Tags</h2>
 Self closing tags are tags that do not need a closing tag like the examples above.
 <h3>Image Tag</h3>
-This tag allows you to display an image on your page
+This tag allows you to display an image or gif on your page.
 {% highlight HTML %}
 
-<img src="https://imgur.com/qFxJTtS">
+<img src="https://imgur.com/qFxJTtS.gif">
 
 {% endhighlight %}
 <img src="https://imgur.com/qFxJTtS.gif">
-
+Later I'll show you how to resize this image.
 
 <h2>Lists(ordered & unordered)</h2>
 An **unordered** list is a bulleted list or any symboled list.
@@ -163,3 +163,5 @@ An **unordered** list is a bulleted list or any symboled list.
 
 1. Hello
 2. World
+
+<h2>Attributes</h2>
