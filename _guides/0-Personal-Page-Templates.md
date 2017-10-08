@@ -3,16 +3,18 @@ layout: guides
 title:  "Personal Page Template Guide/Links"
 categories: tutorials
 ---
-<h4>Introduction</h4>
+**Introduction**
+
 Hello, this is a short tutorial to make a quick personal website with limited knowledge on web development.
 You can use any of the template links below to create your website.
 Depending on the type of website you choose I will have a guide on how to create your own personal website on github!
+I put stars (<i class="fa fa-star"></i>) near the ones that I recommend for you guys to use.
 
 ----
 
 **HTML/CSS/Javascript Template Websites**
-  * [HTML5up](https://html5up.net) **Recommended**
-  * [Creative Tim](https://www.creative-tim.com) **Recommended**
+  * [HTML5up](https://html5up.net) <i class="fa fa-star"></i><i class="fa fa-star"></i>
+  * [Creative Tim](https://www.creative-tim.com) <i class="fa fa-star"></i>
   * [FreebiesBug](https://freebiesbug.com/code-stuff/html-website-templates/)
   * [OS-Templates](http://www.os-templates.com/free-website-templates?start=27)
   * [Templated.co](https://templated.co)
@@ -24,7 +26,7 @@ A lot of the information on how to use these should be pretty straight forward h
 ----
 
 **Jekyll Template Websites**
-  * [Github Compilation of themes](https://github.com/jekyll/jekyll/wiki/Themes) **Recommended**
+  * [Github Compilation of themes](https://github.com/jekyll/jekyll/wiki/Themes) <i class="fa fa-star"></i>
   * [Jekyll Themes](http://jekyllthemes.org)
   * [JekyllThemes.io](https://jekyllthemes.io)
 
