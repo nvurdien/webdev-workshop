@@ -26,15 +26,15 @@ Go to that folder and open the main/homepage/index html file in any text editor 
 
 In example, mine is labeled **index.html**.
 
-<a href="https://imgur.com/Yo1ei7h.gif" target="_blank">Stuck?</a>
+<a href="https://imgur.com/Yo1ei7h.gif" target="_blank">Need Help?</a>
 
 You can also see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page.
 
-<a href="https://i.imgur.com/p6ogpho.gif">Stuck?</a>
+<a href="https://i.imgur.com/p6ogpho.gif" target="_blank">Need Help?</a>
 
 You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser.
 
-<a href="https://i.imgur.com/kTnxLWn.gif">Stuck?</a>
+<a href="https://i.imgur.com/kTnxLWn.gif" target="_blank">Need Help?</a>
 
 ----
 
@@ -42,11 +42,15 @@ You can debug your site by right-clicking (if you are on Windows/Linux) or contr
 
 Create a repository named <insertGithubUserNameHere>.github.io without the '<>'
 
-In this tutorial, my username is nvurdienn so mine would be nvurdienn.github.io
+In this tutorial, my username is nvurdienn so my repository would be named nvurdienn.github.io
 
-<img src="https://i.imgur.com/jkVeHWa.gif">
+<a href="https://i.imgur.com/QA32DJL.gif" target="_blank">Need Help?</a>
+
+Once you have done that set up Git on your computer, if you haven't already. If you have a Mac/Linux, Git should be preinstalled on your system; however, if you have windows you should download <a href="https://desktop.github.com" target="_blank">Github Desktop</a>. Instructions on how to set up Git through command line are listed <a href="http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/" target="_blank">here</a>. You may also set up Git by downloading <a href="https://desktop.github.com" target="_blank">Github Desktop</a>.
 
 Then add all the files into that repository and congrats you have successfully created your personal page!
+
+<a href="https://i.imgur.com/jkVeHWa.gif" target="_blank">Need Help?</a>
 
 The page would be at <insertGithubUserNameHere>.github.io
 
