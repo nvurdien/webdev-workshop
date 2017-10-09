@@ -7,9 +7,9 @@ categories: tutorials
 
 Please pick one of the following templates before you start this tutorial:
 
-  * [Github Compilation of themes](https://github.com/jekyll/jekyll/wiki/Themes) <i class="fa fa-star"></i>
-  * [Jekyll Themes](http://jekyllthemes.org)
-  * [JekyllThemes.io](https://jekyllthemes.io)
+  * <a href=https://github.com/jekyll/jekyll/wiki/Themes target="_blank">Github Compilation of themes</a> <i class="fa fa-star"></i>
+  * <a href=http://jekyllthemes.org target="_blank">Jekyll Themes</a>
+  * <a href=https://jekyllthemes.io target="_blank">JekyllThemes.io</a>
 
 
 Once you have successfully downloaded the template of your choice please follow the directions below.
@@ -63,4 +63,4 @@ The page would be at <insertGithubUserNameHere>.github.io
 
 As an example, the username used in this tutorial would be nvurdienn.github.io
 
-You can continuously edit this repository by using the last three commands listed above. Make sure you save all files before trying to add them to your repository. Also, make sure you edit all documents in the folder connected to your github repository.
+You can continuously edit this repository by using the last three commands listed above. Make sure you save all files before trying to add them to your repository. Also, make sure you edit all documents in the folder connected to your github repository as well as when you are using the above commands to be in the correct directory.
