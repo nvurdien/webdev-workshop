@@ -37,7 +37,7 @@ You can debug your site by right-clicking (if you are on Windows/Linux) or contr
 
 Also please note for Jekyll, if you plan on managing a blog many of the templates will include a _posts folder where you can create .md files to create new posts. The templates will have the same structure as the sample .md file given in the folder. Also every Jekyll file will be set up differently and generally in all the "README.md" files in the home directory will contain set up instructions. <b>The _config.yml file should be filled out with your information!</b>
 
-<b>If you are using a template for Jekyll and you are new to web development, please only edit the .md files!!</b>
+<b>If you are using a template for Jekyll and you are new to web development, please only edit the .md files and the _config.yml file in order to prevent any unwanted effects!!</b>
 
 Many of the pages you will be using will be using Markdown so here is an excellent resource on getting started with that is this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links" target="_blank">Markdown-Cheatsheet</a> on Github. Markdown also works with HTML so if you would like a guide on understanding HTML, I am currently creating one but you can also refer to other sources online. You should not have to alter any of the CSS or Javascript with these templates.
 

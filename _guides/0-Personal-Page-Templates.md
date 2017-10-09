@@ -44,4 +44,4 @@ So now that you have picked your desired template/theme please follow the links 
 <BR>
 [HTML/CSS/Javascript Template Websites](https://nvurdien.github.io/webdev-workshop/guides/01-aHTML-CSS-JAVASCRIPT-PERSONALSITE-tutorial/)
 <BR>
-[Jekyll Template Websites](https://nvurdien.github.io/webdev-workshop/guides/02-htjekyll-PERSONALSITE-tutorial/)
+[Jekyll Template Websites](https://nvurdien.github.io/webdev-workshop/guides/01-htjekyll-PERSONALSITE-tutorial/)
