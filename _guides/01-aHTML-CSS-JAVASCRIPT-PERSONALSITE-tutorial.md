@@ -46,7 +46,7 @@ In this tutorial, my username is nvurdienn so my repository would be named nvurd
 
 <a href="https://i.imgur.com/QA32DJL.gif" target="_blank">Need Help?</a>
 
-Once you have done that set up Git on your computer, if you haven't already. If you have a Mac/Linux, Git should be preinstalled on your system; however, if you have windows you should download <a href="https://desktop.github.com" target="_blank">Github Desktop</a>. Instructions on how to set up Git through command line are listed <a href="http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/" target="_blank">here</a>. You may also set up Git by downloading <a href="https://desktop.github.com" target="_blank">Github Desktop</a>.
+Once you have done that set up Git on your computer, if you haven't already. If you have a Mac/Linux, Git should be preinstalled on your system; however, if you have windows you should download <a href="https://desktop.github.com" target="_blank">Github Desktop</a>. Instructions on how to set up Git through command line are listed <a href="http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/" target="_blank">here</a>. Linux/Mac users may also set up Git by downloading and logging into <a href="https://desktop.github.com" target="_blank">Github Desktop</a>.
 
 Then add all the files into that repository and congrats you have successfully created your personal page!
 
