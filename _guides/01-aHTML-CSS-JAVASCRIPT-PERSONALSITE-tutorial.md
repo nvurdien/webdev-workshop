@@ -22,19 +22,19 @@ Once you have successfully downloaded the template of your choice please follow 
 
 Once you have downloaded/saved your website template, it will show up in wherever you set up your download folder.
 
-Go to that folder and open the main/homepage/index html file in any text editor of your choice (I recommend <a href="https://atom.io">Atom</a> or <a href="https://www.sublimetext.com">Sublime</a>)
+Go to that folder and open the main/homepage/index html file in any text editor of your choice (I recommend <a href="https://atom.io" target="_blank">Atom</a> or <a href="https://www.sublimetext.com" target="_blank">Sublime</a>)
 
 In example, mine is labeled **index.html**.
 
-<img src="https://imgur.com/Yo1ei7h.gif"/>
+<a href="https://imgur.com/Yo1ei7h.gif" target="_blank">Stuck?</a>
 
 You can also see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page.
 
-<img src="https://i.imgur.com/p6ogpho.gif"/>
+<a href="https://i.imgur.com/p6ogpho.gif">Stuck?</a>
 
 You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser.
 
-<img src="https://i.imgur.com/kTnxLWn.gif"/>
+<a href="https://i.imgur.com/kTnxLWn.gif">Stuck?</a>
 
 ----
 
