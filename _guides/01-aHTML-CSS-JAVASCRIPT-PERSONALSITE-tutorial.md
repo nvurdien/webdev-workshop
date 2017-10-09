@@ -30,11 +30,11 @@ In example, mine is labeled **index.html**.
 
 You can also see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page.
 
-<img src="https://i.imgur.com/p6ogpho.gif">
+<img src="https://i.imgur.com/p6ogpho.gif"/>
 
 You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser.
 
-<img src="https://i.imgur.com/kTnxLWn.gif">
+<img src="https://i.imgur.com/kTnxLWn.gif"/>
 
 ----
 
@@ -42,6 +42,12 @@ You can debug your site by right-clicking (if you are on Windows/Linux) or contr
 
 Create a repository named <insertGithubUserNameHere>.github.io without the '<>'
 
-In this tutorial, my username is "" so mine would be "".github.io
+In this tutorial, my username is nvurdienn so mine would be nvurdienn.github.io
+
+<img src="https://i.imgur.com/jkVeHWa.gifv">
 
 Then add all the files into that repository and congrats you have successfully created your personal page!
+
+The page would be at <insertGithubUserNameHere>.github.io
+
+As an example, the username used in this tutorial would be nvurdienn.github.io
