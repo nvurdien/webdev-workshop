@@ -26,9 +26,9 @@ A lot of the information on how to use these should be pretty straight forward h
 ----
 
 **Jekyll Template Websites**
-  * <a href=https://github.com/jekyll/jekyll/wiki/Themes target="_blank">Github Compilation of themes</a> <i class="fa fa-star"></i>
-  * <a href=http://jekyllthemes.org target="_blank">Jekyll Themes</a>
-  * <a href=https://jekyllthemes.io target="_blank">JekyllThemes.io</a>
+  * <a href="https://github.com/jekyll/jekyll/wiki/Themes" target="_blank">Github Compilation of themes</a> <i class="fa fa-star"></i>
+  * <a href="http://jekyllthemes.org" target="_blank">Jekyll Themes</a>
+  * <a href="https://jekyllthemes.io" target="_blank">JekyllThemes.io</a>
 
 You can find tons of websites online with a simple google search for jekyll themes.
 

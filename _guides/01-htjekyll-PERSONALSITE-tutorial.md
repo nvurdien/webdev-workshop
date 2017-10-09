@@ -7,9 +7,9 @@ categories: tutorials
 
 Please pick one of the following templates before you start this tutorial:
 
-  * <a href=https://github.com/jekyll/jekyll/wiki/Themes target="_blank">Github Compilation of themes</a> <i class="fa fa-star"></i>
-  * <a href=http://jekyllthemes.org target="_blank">Jekyll Themes</a>
-  * <a href=https://jekyllthemes.io target="_blank">JekyllThemes.io</a>
+  * <a href="https://github.com/jekyll/jekyll/wiki/Themes" target="_blank">Github Compilation of themes</a> <i class="fa fa-star"></i>
+  * <a href="http://jekyllthemes.org" target="_blank">Jekyll Themes</a>
+  * <a href="https://jekyllthemes.io" target="_blank">JekyllThemes.io</a>
 
 
 Once you have successfully downloaded the template of your choice please follow the directions below.
