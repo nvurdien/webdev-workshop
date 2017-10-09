@@ -34,6 +34,12 @@ You can find tons of websites online with a simple google search for jekyll them
 
 ----
 
+Not sure which to use?
+
+Do you plan on blogging? Go with Jekyll
+
+Are you a beginner at Web Development? Go with HTML/CSS/Javascript
+
 So now that you have picked your desired template/theme please follow the links below to lead you to a tutorial on how to set it up!
 <BR>
 [HTML/CSS/Javascript Template Websites](https://nvurdien.github.io/webdev-workshop/guides/01-aHTML-CSS-JAVASCRIPT-PERSONALSITE-tutorial/)

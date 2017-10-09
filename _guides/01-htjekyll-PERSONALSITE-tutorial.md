@@ -26,11 +26,21 @@ In example, mine is labeled **index.html**. If it is not named index.html please
 
 <a href="https://imgur.com/Yo1ei7h.gif" target="_blank">Need Help?</a>
 
-<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links" target="_blank">Markdown-Cheatsheet</a>
+You can also see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page.
+<b>You probably won't have to change ANY HTML in your Jekyll template!</b>
+
+<a href="https://i.imgur.com/p6ogpho.gif" target="_blank">Need Help?</a>
 
 You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser.
 
 <a href="https://i.imgur.com/kTnxLWn.gif" target="_blank">Need Help?</a>
+
+Also please note for Jekyll, if you plan on managing a blog many of the templates will include a _posts folder where you can create .md files to create new posts. The templates will have the same structure as the sample .md file given in the folder. Also every Jekyll file will be set up differently and generally in all the "README.md" files in the home directory will contain set up instructions. <b>The _config.yml file should be filled out with your information!</b>
+
+<b>If you are using a template for Jekyll and you are new to web development, please only edit the .md files!!</b>
+
+Many of the pages you will be using will be using Markdown so here is an excellent resource on getting started with that is this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links" target="_blank">Markdown-Cheatsheet</a> on Github. Markdown also works with HTML so if you would like a guide on understanding HTML, I am currently creating one but you can also refer to other sources online. You should not have to alter any of the CSS or Javascript with these templates.
+
 
 ----
 

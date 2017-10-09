@@ -36,6 +36,8 @@ You can debug your site by right-clicking (if you are on Windows/Linux) or contr
 
 <a href="https://i.imgur.com/kTnxLWn.gif" target="_blank">Need Help?</a>
 
+If you would like a guide on understanding HTML, I am currently creating one but you can also refer to other sources online. You should not have to alter any of the CSS or Javascript with these templates. 
+
 ----
 
 **Deploying to Github**
