@@ -26,10 +26,9 @@ In example, mine is labeled **index.html**. If it is not named index.html please
 
 <a href="https://imgur.com/Yo1ei7h.gif" target="_blank">Need Help?</a>
 
-You can also see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page.
-<b>You probably won't have to change ANY HTML in your Jekyll template!</b>
+<b>You probably won't have to change <u>ANY</u> HTML in your Jekyll template!</b>
 
-<a href="https://i.imgur.com/p6ogpho.gif" target="_blank">Need Help?</a>
+But if you do, you can see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page <a href="https://i.imgur.com/p6ogpho.gif" target="_blank">like this</a>.
 
 You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser.
 
@@ -84,4 +83,4 @@ The page would be at <insertGithubUserNameHere>.github.io
 
 As an example, the username used in this tutorial would be nvurdienn.github.io
 
-You can continuously edit this repository by using the last three commands listed above. Make sure you save all files before trying to add them to your repository. Also, make sure you edit all documents in the folder connected to your github repository as well as when you are using the above commands to be in the correct directory.
+You can continuously edit this repository by using the last three commands listed above just make sure you are in the correct directory. Make sure you save all files before trying to push them to github. Also, make sure you edit all documents in the folder connected to your github repository.

@@ -36,7 +36,7 @@ You can debug your site by right-clicking (if you are on Windows/Linux) or contr
 
 <a href="https://i.imgur.com/kTnxLWn.gif" target="_blank">Need Help?</a>
 
-If you would like a guide on understanding HTML, I am currently creating one but you can also refer to other sources online. You should not have to alter any of the CSS or Javascript with these templates. 
+If you would like a guide on understanding HTML, I am currently creating one but you can also refer to other sources online. You should not have to alter any of the CSS or Javascript with these templates.
 
 ----
 
@@ -80,4 +80,4 @@ The page would be at <insertGithubUserNameHere>.github.io
 
 As an example, the username used in this tutorial would be nvurdienn.github.io
 
-You can continuously edit this repository by using the last three commands listed above. Make sure you save all files before trying to add them to your repository. Also, make sure you edit all documents in the folder connected to your github repository as well as when you are using the above commands to be in the correct directory.
+You can continuously edit this repository by using the last three commands listed above just make sure you are in the correct directory. Make sure you save all files before trying to push them to github. Also, make sure you edit all documents in the folder connected to your github repository.
