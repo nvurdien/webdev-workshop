@@ -44,7 +44,7 @@ Create a repository named <insertGithubUserNameHere>.github.io without the '<>'
 
 In this tutorial, my username is nvurdienn so mine would be nvurdienn.github.io
 
-<img src="https://i.imgur.com/jkVeHWa.gifv">
+<img src="https://i.imgur.com/jkVeHWa.gif">
 
 Then add all the files into that repository and congrats you have successfully created your personal page!
 
