@@ -30,8 +30,6 @@ In example, mine is labeled **index.html**.
 
 You can also see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page.
 
-<img src="https://i.imgur.com/1fx0Wmp.gif">
-
 <img src="https://i.imgur.com/p6ogpho.gif">
 
 You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser.
