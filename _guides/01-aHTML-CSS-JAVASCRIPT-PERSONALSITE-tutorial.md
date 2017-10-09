@@ -24,7 +24,7 @@ Once you have downloaded/saved your website template, it will show up in whereve
 
 Go to that folder and open the main/homepage/index html file in any text editor of your choice (I recommend <a href="https://atom.io" target="_blank">Atom</a> or <a href="https://www.sublimetext.com" target="_blank">Sublime</a>)
 
-In example, mine is labeled **index.html**.
+In example, mine is labeled **index.html**. If it is not named index.html please change it to index.html since github recognizes the homepage link as index.html
 
 <a href="https://imgur.com/Yo1ei7h.gif" target="_blank">Need Help?</a>
 
