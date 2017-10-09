@@ -7,12 +7,12 @@ categories: tutorials
 
 Please pick one of the following templates before you start this tutorial:
 
-  * <a href=https://html5up.net target="_blank">HTML5up</a> <i class="fa fa-star"></i><i class="fa fa-star"></i>
-  * <a href="https://www.creative-tim.com target="_blank"> Creative Tim</a> <i class="fa fa-star"></i>
-  * <a href="https://freebiesbug.com/code-stuff/html-website-templates/ target="_blank"> FreebiesBug</a>
-  * <a href="http://www.os-templates.com/free-website-templates?start=27 target="_blank"> OS-Templates</a>
-  * <a href="https://templated.co target="_blank"> Templated.co</a>
-  * <a href="http://www.templatemo.com/page/1 target="_blank"> Templatemo</a>
+  * <a href="https://html5up.net" target="_blank">HTML5up</a> <i class="fa fa-star"></i><i class="fa fa-star"></i>
+  * <a href="https://www.creative-tim.com" target="_blank"> Creative Tim</a> <i class="fa fa-star"></i>
+  * <a href="https://freebiesbug.com/code-stuff/html-website-templates/" target="_blank"> FreebiesBug</a>
+  * <a href="http://www.os-templates.com/free-website-templates?start=27" target="_blank"> OS-Templates</a>
+  * <a href="https://templated.co" target="_blank"> Templated.co</a>
+  * <a href="http://www.templatemo.com/page/1" target="_blank"> Templatemo</a>
 
 Once you have successfully downloaded the template of your choice please follow the directions below.
 
