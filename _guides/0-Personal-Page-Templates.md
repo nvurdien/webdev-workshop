@@ -20,8 +20,8 @@ I put stars (<i class="fa fa-star"></i>) near the ones that I recommend for you 
   * [Templated.co](https://templated.co)
   * [Templatemo](http://www.templatemo.com/page/1)
 
-There's more than just this list you can just google search for free website templates online as well. I prefer HTML5up though.
-A lot of the information on how to use these should be pretty straight forward however if you have any questions you can contact me anytime with the information listed below.
+There's more than just this list you can just google search for free website templates online as well.
+A lot of the information on how to use these should be pretty straight forward however if you have any questions you can contact me anytime with the contact information listed at the footer.
 
 ----
 

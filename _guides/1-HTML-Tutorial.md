@@ -139,6 +139,7 @@ This tag allows you to display an image or gif on your page.
 
 {% endhighlight %}
 <img src="https://imgur.com/qFxJTtS.gif">
+
 Later I'll show you how to resize this image.
 
 <h2>Lists(ordered & unordered)</h2>
