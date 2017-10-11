@@ -166,3 +166,24 @@ An **unordered** list is a bulleted list or any symboled list.
 2. World
 
 <h2>Attributes</h2>
+Attributes are modifiers of an HTML element type. There are several types of attributes **required**, **optional**, **standard**, and **event**.
+**Required** attributes are needed by the element in order to function correctly this is the case for tags like the 'a' tag.
+**Optional** attributes are not needed by the element but can be used to modify the default function like the example below.
+
+*'a'* tags are used for links. The *'href'* attribute is an example of a **required** attribute because if it is not included it will just be a regular block of text; the *'target'* attribute is an **optional** attribute because it is being used to alter the default *'_blank'* allows the tag to tell the browser to open the page in a new webpage or tab.
+{% highlight HTML %}
+  <a href="https://imgur.com/qFxJTtS.gif" target="_blank">Image</a>
+{% endhighlight %}
+
+<a href="https://imgur.com/qFxJTtS.gif" target="_blank">Image</a>
+
+Similarly, with the *'img'* tag the *'src'* attribute is **required** in order for it to show an image. We can also include the **optional** tags *'width'* and *'height'* to change the size of the image
+
+{% highlight HTML %}
+
+<img src="https://imgur.com/qFxJTtS.gif" width=150px height=auto>
+
+{% endhighlight %}
+<img src="https://imgur.com/qFxJTtS.gif" width=150px height=auto>
+
+**Standard** Attributes include *'id'*, *'class'*, *'style'*, *'title'*, etc. These attributes are used to alter the style (or CSS) of the HTML tag which we will discuss later. **Event** Attributes are inline javascript functions in the HTML which we will also discuss later.
