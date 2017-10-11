@@ -181,9 +181,9 @@ Similarly, with the *'img'* tag the *'src'* attribute is **required** in order f
 
 {% highlight HTML %}
 
-<img src="https://imgur.com/qFxJTtS.gif" width=150px height=auto>
+<img src="https://imgur.com/qFxJTtS.gif" width="150px" height="auto">
 
 {% endhighlight %}
-<img src="https://imgur.com/qFxJTtS.gif" width=150px height=auto>
+<img src="https://imgur.com/qFxJTtS.gif" width="150px" height="auto">
 
 **Standard** Attributes include *'id'*, *'class'*, *'style'*, *'title'*, etc. These attributes are used to alter the style (or CSS) of the HTML tag which we will discuss later. **Event** Attributes are inline javascript functions in the HTML which we will also discuss later.
