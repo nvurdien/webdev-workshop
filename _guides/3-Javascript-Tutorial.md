@@ -126,7 +126,7 @@ Assume x = 5 and y = 9
 | Operator | Name | Example           | Result |
 |----------|------|-------------------|--------|
 | &&       | AND  | x < 10 && x !== 5 | false  |
-| ||       | OR   | y > 9 || x == 5   | true   |
+| &#8741;  | OR   | y > 9 || x == 5   | true   |
 | !        | NOT  | !(x == y)         | true   |
 
 <h2>Loops</h2>
