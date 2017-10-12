@@ -123,11 +123,11 @@ Here is a table of logical operators. All of them should be familiar from C++
 
 Assume x = 5 and y = 9
 
-| Operator | Name | Example           | Result |
-|----------|------|-------------------|--------|
-| &&       | AND  | x < 10 && x !== 5 | false  |
-| &#8741;  | OR   | y > 9 || x == 5   | true   |
-| !        | NOT  | !(x == y)         | true   |
+| Operator | Name | Example                | Result |
+|----------|------|------------------------|--------|
+| &&       | AND  | x < 10 && x !== 5      | false  |
+| &#8741;  | OR   | y > 9 &#8741; x == 5   | true   |
+| !        | NOT  | !(x == y)              | true   |
 
 <h2>Loops</h2>
 **While loops**
