@@ -48,13 +48,13 @@ In addition, developers generally put external stylesheets and other definition 
 </head>
 {% endhighlight %}
 
-A typical html document would have an outline like the one shown below:
+A **typical** html document would have an **outline/template** like the one shown below:
 {% highlight HTML %}
 <!DOCTYPE html>
 <html>
   <head>
     <!--external files or metadata here-->
-    <title></title>
+    <title>Page Title</title><!--Title of the page usually appears on tab-->
   </head>
   <body>
   </body>
@@ -186,7 +186,21 @@ Similarly, with the *'img'* tag the *'src'* attribute is **required** in order f
 {% endhighlight %}
 <img src="https://imgur.com/qFxJTtS.gif" width="150px" height="auto">
 
+The auto value allows it to adjust based on the width size
+
 **Standard** Attributes include *'id'*, *'class'*, *'style'*, *'title'*, etc. These attributes are used to alter the style (or CSS) of the HTML tag which we will discuss later. **Event** Attributes are inline javascript functions in the HTML which we will also discuss later.
+
+----
+
+<h2>Try for Yourself!</h2>
+Make sure to **include headers** to divide each of these activities on a single HTML page and **use the template** given above:
+
+  * Title the page with your name in the title tags
+  * Create a list of links to popular search engines
+  * Create an ordered list of your preferred search engine by rank
+  * Place the CSUF logo onto the page with size 150px by 150px
+  * Create another list that uses the commonly used tags **bold**, *italics*, _underline_, and ***bold/italic***
+
 
 ----
 
