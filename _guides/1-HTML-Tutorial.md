@@ -6,7 +6,7 @@ categories: tutorials
 <!--  *italic*  **bold**  ***bold/italic***  [link](http://cjdns.info/) -->
 
 **What to Expect**
-  * Tags
+  * General Rule
   * Header (Including files, titles, etc)
   * Comments
   * Commonly Used Tags
@@ -16,14 +16,14 @@ categories: tutorials
 
 ----
 
-<h2>Tags</h2>
-
-<h3>General Rule</h3>
+<h2>General Rule</h2>
 {% highlight HTML %}
 
 <tagname> Hello World </tagname>
 
 {% endhighlight %}
+
+These are called tags.
 
 <h2>Header</h2>
 For the beginning of your HTML documents it is good practice to specify the document type with:
@@ -187,3 +187,8 @@ Similarly, with the *'img'* tag the *'src'* attribute is **required** in order f
 <img src="https://imgur.com/qFxJTtS.gif" width="150px" height="auto">
 
 **Standard** Attributes include *'id'*, *'class'*, *'style'*, *'title'*, etc. These attributes are used to alter the style (or CSS) of the HTML tag which we will discuss later. **Event** Attributes are inline javascript functions in the HTML which we will also discuss later.
+
+----
+
+**References**
+  * <a href="http://webdev.slides.com/coltsteele/deck-7-50#/" target="_blank">Intro to CSS</a>
