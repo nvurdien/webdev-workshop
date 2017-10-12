@@ -275,4 +275,8 @@ numbers.forEach(function(number){
 <h2>References</h2>
   * <a href="http://webdev.slides.com/coltsteele/javascript-basics-57#/7" target="_blank">Javascript Basics</a>
   * <a href="http://webdev.slides.com/coltsteele/deck-4-47#/" target="_blank">Boolean Logic</a>
-  *
+  * <a href="http://webdev.slides.com/coltsteele/loops-58#/" target="_blank">Loops</a>
+  * <a href="http://webdev.slides.com/coltsteele/loops-18-59#/" target="_blank">For Loops</a>
+  * <a href="http://webdev.slides.com/coltsteele/javascript-basics-20-21-22-23-64#/" target="_blank">JS Functions</a>
+  * <a href="http://webdev.slides.com/coltsteele/javascript-basics-20-21-62#/" target="_blank">Array Methods</a>
+  * <a href="http://webdev.slides.com/coltsteele/javascript-basics-20-21-22-63#/" target="_blank">Array Iteration</a>
