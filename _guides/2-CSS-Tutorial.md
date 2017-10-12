@@ -8,7 +8,7 @@ categories: tutorials
   * General Rule
   * Comments
   * Where can we write styles?
-  * <link> tag
+  * &lt;link&gt; tag
   * Colors
   * Background stuff
 
