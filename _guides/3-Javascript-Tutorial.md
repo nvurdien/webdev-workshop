@@ -10,8 +10,8 @@ categories: tutorials
   * Boolean Logic
   * Loops
   * Function
-  * Data Structures
-  * Script Tag
+  * Arrays
+  * Where can we write scripts?
   * JQuery
 
 ----
@@ -270,6 +270,87 @@ numbers.forEach(function(number){
 
 {% endhighlight %}
 
+
+<h2>Where can we write scripts?</h2>
+There are several places where you can write scripts. You can create a script tag in the head area of an HTML document like so,
+
+{% highlight HTML %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+  </head>
+  <body>
+  </body>
+</html>
+
+{% endhighlight %}
+
+or (better)
+
+{% highlight HTML %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+  </head>
+  <body>
+  </body>
+  <script type="text/javascript">
+    console.log("hello world");
+  </script>
+</html>
+
+{% endhighlight %}
+
+You can also do inline scripting as well which is not recommended
+
+{% highlight HTML %}
+
+<p onclick="alert('hey! notice me!')">pink colored text</p>
+
+{% endhighlight %}
+
+You can also place them in a Javascript file where you can create multiple functions you want the page to execute
+
+{% highlight Javascript %}
+
+var num = document.getElementById("number1").value;
+var nums = document.getElementById("number2").value;
+document.getElementById("alter").innerHTML = "The sum of the numbers is "+add(num, nums);
+document.getElementById("alter2").innerHTML = "The difference of the numbers is "+subtract(num, nums);
+
+
+function add(num1, num2){
+  return num1+num2;
+}
+
+function subtract(num1, num2){
+  return num1-num2;
+}
+
+{% endhighlight %}
+
+
+Out of the three methods it is common convention to just use the last one. **Only use the first two for testing purposes.**
+It is recommended you **place all script tags at the bottom of the HTML file** so right after the body tag, since the browser loads all the information by line order. If you are using javascript to alter your HTML, it won't be able to change what it doesn't know yet.
+
+<h2>JQuery</h2>
+Jquery is a popular javascript library that quickens and simplifies javascript code.
+
+
+
+----
+
+<h2>Example</h2>
+
+
+
+----
+
+<h2>Try it for Yourself</h2>
 
 ----
 <h2>References</h2>

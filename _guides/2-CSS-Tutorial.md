@@ -10,7 +10,10 @@ categories: tutorials
   * Where can we write styles?
   * &lt;link&gt; tag
   * Colors
+  * Classes
+  * IDs
   * Background stuff
+  * Useful Properties
 
 ----
 
@@ -196,6 +199,76 @@ In the HTML file,
 
 <h3 style="color:rgb(0, 0, 128)">I am Navy Blue by rgb.</h3>
 
+<h2>IDs</h2>
+ID selectors can only be used on one HTML tag per page, thus unique. The selectors name is preceded by a '#'
+
+In the CSS file,
+style.css
+{% highlight CSS %}
+
+#favorite{
+  color:red;
+}
+
+{% endhighlight %}
+
+In the HTML file,
+{% highlight HTML %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h2>Colors</h2>
+  <ul>
+  <li>Red</li>
+  <li>Orange</li>
+  <li>Yellow</li>
+  <li>Green</li>
+  <li id="favorite">Blue</li>
+  <li>Purple</li>
+  </ul>
+</body>
+</html>
+{% endhighlight %}
+
+
+<h2>Classes</h2>
+Class selectors can be used on multiple HTML tags, thus not unique. The selectors name is preceded by a '.'
+
+In the CSS file,
+style.css
+{% highlight CSS %}
+
+.rgb{
+  color:red;
+}
+
+{% endhighlight %}
+
+In the HTML file,
+{% highlight HTML %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h2>Colors</h2>
+  <ul>
+  <li class="rgb">Red</li>
+  <li>Orange</li>
+  <li>Yellow</li>
+  <li class="rgb">Green</li>
+  <li class="rgb">Blue</li>
+  <li>Purple</li>
+  </ul>
+</body>
+</html>
+{% endhighlight %}
 
 <h2>Background Stuff</h2>
 Another important aspect of CSS involves the background capabilities. Generally, if you want to define the background color of any a tag in HTML you would use the 'background' property.
@@ -237,6 +310,26 @@ I am a green text box
 {% endhighlight %}
 
 The body tag with the background property changed makes the entire page light greenish. The div tag will create a darker green text box. The p tag will create an even darker green background for text enclosed in a p tag. The p tag text is also colored white.
+
+<h2>Useful Properties</h2>
+
+
+----
+
+
+
+----
+
+<h2>Try for Yourself!</h2>
+Create a CSS document that styles the HTML page you created in the previous tutorial with all the following:
+
+  * Have all the 'li' tags be red.
+  * Have all the h1 tags be a hex code color selected from <a href="http://htmlcolorcodes.com/color-picker/">here</a>.
+  * Create an **index** called favorite and set the color property to be your favorite color selected from <a href="http://htmlcolorcodes.com/color-picker/">here</a>.
+  * Create a **class** called useful and set the color property to be any color selected from <a href="http://htmlcolorcodes.com/color-picker/">here</a>.
+  * Set an 'li' item from your favorites section to have an **id** favorite.
+  * Set 'li' items bold, italic, and underline with **class** useful.
+
 
 ----
 

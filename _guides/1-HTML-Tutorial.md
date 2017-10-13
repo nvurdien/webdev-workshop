@@ -192,17 +192,32 @@ The auto value allows it to adjust based on the width size
 
 ----
 
+<h2>Example</h2>
+{% highlight HTML %}
+
+
+
+{% endhighlight %}
+
+yields
+
+<img src="">
+
+----
+
 <h2>Try for Yourself!</h2>
-Make sure to **include headers** to divide each of these activities on a single HTML page and **use the template** given above:
+Create an HTML document with all the following:
 
   * Title the page with your name in the title tags
   * Create a list of links to popular search engines
   * Create an ordered list of your preferred search engine by rank
+  * Create another list that labels your favorite food, drink, color and animal
   * Place the CSUF logo onto the page with size 150px by 150px
-  * Create another list that uses the commonly used tags **bold**, *italics*, _underline_, and ***bold/italic***
+  * Create another list that uses the commonly used tags **bold**, *italics*, <u>underline</u>, and ***bold/italic***
 
+Make sure to **use headers to divide each of these activities** on a single HTML page and **use the template** given above.
 
 ----
 
-**References**
-  * <a href="http://webdev.slides.com/coltsteele/deck-7-50#/" target="_blank">Intro to CSS</a>
+<h2>References</h2>
+  * <a href="http://webdev.slides.com/coltsteele/deck-7-50#/" target="_blank">Intro to HTML</a>
