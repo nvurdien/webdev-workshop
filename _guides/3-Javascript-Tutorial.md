@@ -338,8 +338,24 @@ Out of the three methods it is common convention to just use the last one. **Onl
 It is recommended you **place all script tags at the bottom of the HTML file** so right after the body tag, since the browser loads all the information by line order. If you are using javascript to alter your HTML, it won't be able to change what it doesn't know yet.
 
 <h2>JQuery</h2>
-Jquery is a popular javascript library that quickens and simplifies javascript code.
+Jquery is a popular javascript library that quickens and simplifies javascript code. If you're interested in using it here is the <a href="http://api.jquery.com" target="_blank">JQuery Documentation</a>
+Here are a few examples:
 
+{% highlight Javascript %}
+
+document.getElementById("favorite").innerHTML;
+document.getElementsByClass("useful").innerHTML;
+
+{% endhighlight %}
+
+versus
+
+{% highlight Javascript %}
+
+$("#favorite").innerHTML; //document.getElementById("favorite").innerHTML;
+$(".useful").innerHTML; //document.getElementsByClass("useful").innerHTML;
+
+{% endhighlight %}
 
 
 ----

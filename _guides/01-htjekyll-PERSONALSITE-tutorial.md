@@ -22,17 +22,13 @@ Once you have downloaded/saved your website template, it will show up in whereve
 
 Go to that folder and open the main/homepage/index html file in any text editor of your choice (I recommend <a href="https://atom.io" target="_blank">Atom</a> or <a href="https://www.sublimetext.com" target="_blank">Sublime</a>)
 
-In example, mine is labeled **index.html**. If it is not named index.html please change it to index.html since github recognizes the homepage link as index.html
-
-<a href="https://imgur.com/Yo1ei7h.gif" target="_blank">Need Help?</a>
+In example, mine is labeled **index.html**. If it is not named index.html please change it to index.html since github recognizes the homepage link as index.html <a href="https://imgur.com/Yo1ei7h.gif" target="_blank">like this</a>
 
 <b>You probably won't have to change <u>ANY</u> HTML in your Jekyll template!</b>
 
 But if you do, you can see how you are editing your site in realtime by opening the HTML document in your browser and refreshing the page <a href="https://i.imgur.com/p6ogpho.gif" target="_blank">like this</a>.
 
-You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser.
-
-<a href="https://i.imgur.com/kTnxLWn.gif" target="_blank">Need Help?</a>
+You can debug your site by right-clicking (if you are on Windows/Linux) or control+click (if you are on a Mac) and selecting the "Inspect Elements" option which should come with every browser. <a href="https://i.imgur.com/kTnxLWn.gif" target="_blank">like this</a>
 
 Also please note for Jekyll, if you plan on managing a blog many of the templates will include a _posts folder where you can create .md files to create new posts. The templates will have the same structure as the sample .md file given in the folder. Also every Jekyll file will be set up differently and generally in all the "README.md" files in the home directory will contain set up instructions. <b>The _config.yml file should be filled out with your information!</b>
 
@@ -49,7 +45,7 @@ Create a repository named <insertGithubUserNameHere>.github.io without the '<>'
 
 In this tutorial, my username is nvurdienn so my repository would be named nvurdienn.github.io
 
-<a href="https://i.imgur.com/QA32DJL.gif" target="_blank">Need Help?</a>
+<a href="https://i.imgur.com/QA32DJL.gif" target="_blank">like this</a>
 
 Once you have done that set up Git on your computer, if you haven't already. If you have a Mac/Linux, Git should be preinstalled on your system; however, if you have windows you should download <a href="https://desktop.github.com" target="_blank">Github Desktop</a>. Instructions on how to set up Git through command line are listed <a href="http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/" target="_blank">here</a>. Linux/Mac users may also set up Git by downloading and logging into <a href="https://desktop.github.com" target="_blank">Github Desktop</a>.
 
@@ -75,7 +71,7 @@ git push
 
 {% endhighlight %}
 
-<a href="https://i.imgur.com/jkVeHWa.gif" target="_blank">Need Help?</a>
+<a href="https://i.imgur.com/jkVeHWa.gif" target="_blank">like this</a>
 
 Congrats you have successfully created your personal page!
 

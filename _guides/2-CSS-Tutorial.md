@@ -13,7 +13,7 @@ categories: tutorials
   * Classes
   * IDs
   * Background stuff
-  * Useful Properties
+  * Properties and Box Model
 
 ----
 
@@ -311,12 +311,112 @@ I am a green text box
 
 The body tag with the background property changed makes the entire page light greenish. The div tag will create a darker green text box. The p tag will create an even darker green background for text enclosed in a p tag. The p tag text is also colored white.
 
-<h2>Useful Properties</h2>
+<h2>Properties and Box Model</h2>
 
+<a href="https://meiert.com/en/indices/css-properties/" target="_blank">Here is a nice list of CSS Properties and what they do</a>
+
+**Box Model**
+
+<img src=https://i.stack.imgur.com/PeSIJ.gif>
+
+**Content** is where all the text, images and other stuff you included in the box go.
+**Padding** is used to move content away from the edge of the box
+**Borders** if included surround the content and padding
+**Margins** are used to move content away from things outside of the box
 
 ----
 
+<h2>Example</h2>
+The html document
+{% highlight HTML %}
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/><!--CSS Stylesheet-->
+    <title>My Personal Page</title><!--Title of the page usually appears on tab-->
+  </head>
+  <body>
+  <header>
+    <h1>Profile</h1>
+  </header>
+  <div id="main" class="container">
+      <h3>About Me</h3>
+      <p><img src="https://imgur.com/4c6qaOy.gif" height="250px" width="auto"><BR>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <h3>Favorite Stuff</h3>
+      <ul>
+      <li><b>Food</b> - Ramen</li>
+      <li><b>Drink</b> - Juice</li>
+      <li><b>Color</b> - Black, Purple, Green, every color!</li>
+      <li><b>Animal</b> - Dog</li>
+      </ul>
+      <h3>Social Links</h3>
+      <ul>
+      <li><a href="https://github.com" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+      <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
 
+{% endhighlight %}
+
+The CSS file
+{% highlight CSS %}
+html
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Source Sans Pro', san-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+
+header{
+  width: 100%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  padding: 5px;
+  padding-left: 10px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  background: white;
+  color:black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#main {
+  background: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  height: 100%;
+  padding: 10px;
+}
+
+
+#nav{
+
+}
+
+{% endhighlight %}
+
+yields
+
+<img src="https://i.imgur.com/VXGO3Il.png">
 
 ----
 

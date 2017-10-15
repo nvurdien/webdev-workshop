@@ -1,0 +1,46 @@
+html
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Source Sans Pro', san-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+
+header{
+  width: 100%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  padding: 5px;
+  padding-left: 10px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  background: white;
+  color:black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#main {
+  background: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  height: 100%;
+  padding: 10px;
+}
+
+
+#nav{
+
+}
