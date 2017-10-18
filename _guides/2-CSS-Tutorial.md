@@ -440,7 +440,7 @@ Create a CSS document that styles the HTML page you created in the previous tuto
   * Set an 'li' item from your favorites section to have an **id** favorite.
   * Set 'li' items bold, italic, and underline with **class** useful.
 
-<button class="fancy" href="https://nvurdien.github.io/webdev-workshop/guides/3-Javascript-Tutorial/">Next</button>
+<a class="button fancy" href="https://nvurdien.github.io/webdev-workshop/guides/3-Javascript-Tutorial/">On To Javascript</a>
 
 ----
 
