@@ -223,7 +223,7 @@ The auto value allows it to adjust based on the width size
 
 yields
 
-[Screenshot](https://i.imgur.com/yOowvLN.png)
+<img src="https://i.imgur.com/yOowvLN.png">
 
 **Note**: {% highlight HTML %}<BR>{% endhighlight %} is next line
 
