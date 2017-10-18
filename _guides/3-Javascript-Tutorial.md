@@ -389,7 +389,7 @@ The html document
       <BR><BR>
       <button id="clickable">Click to Fade</button>
       <button class="clickable2">Click to Fade</button>
-
+      Click this box and press some keys
       <div id="play"></div>
   </body>
   <script src="js/script.js"></script>
@@ -448,7 +448,7 @@ $( "div.test" ).on({
 {% endhighlight %}
 
 Check it out here!
-<script async src="//jsfiddle.net/eprhx1sj/embed/result/"></script>
+<iframe width="100%" height="500" src="//jsfiddle.net/eprhx1sj/2/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ----
 
