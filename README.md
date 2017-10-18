@@ -15,4 +15,4 @@ Create a `master`-branch if you want to use this theme as root folder on `yourna
 
 ![screenshot](https://cloud.githubusercontent.com/assets/4943215/9838597/ef499f66-5a61-11e5-8ad0-b2bb71383833.png)
 
-Niklas Buschmann, 2014, MIT-License
+Niklas Buschmann, 2014, MIT License

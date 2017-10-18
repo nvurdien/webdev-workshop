@@ -357,16 +357,39 @@ $(".useful").innerHTML; //document.getElementsByClass("useful").innerHTML;
 
 {% endhighlight %}
 
+**How do I include JQuery?**
+
+We use either a Content Delivery Network or CDN for short which is a link online that serves content which in this case is the script file. Programmers generally use a CDN because users usually already have the CDN file link downloaded. Otherwise if your server is quick enough you can host the JQuery file locally by simply downloading the script file from their website.
+
 
 ----
 
 <h2>Example</h2>
+The html document
+{% highlight HTML %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Demo</title><!--Title of the page usually appears on tab-->
+  </head>
+  <body>
 
+  </body>
+</html>
+{% endhighlight %}
+
+The Javascript file
+{% highlight Javascript %}
+
+
+
+{% endhighlight %}
 
 
 ----
 
 <h2>Try it for Yourself</h2>
+
 
 ----
 <h2>References</h2>

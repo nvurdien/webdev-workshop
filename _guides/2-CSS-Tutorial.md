@@ -324,6 +324,24 @@ The body tag with the background property changed makes the entire page light gr
 **Borders** if included surround the content and padding
 **Margins** are used to move content away from things outside of the box
 
+**Padding**
+
+When you are using the padding property the order of values is top, right, bottom, left.
+
+{% highlight CSS %}
+
+padding: top, right, bottom, left;
+
+{% endhighlight %}
+
+If you place one value it is equivalent to setting all values (top, right, bottom and left) to that value.
+
+{% highlight CSS %}
+
+padding: 5px;
+padding: 5px, 5px, 5px, 5px;
+
+{% endhighlight %}
 ----
 
 <h2>Example</h2>
@@ -379,13 +397,10 @@ body{
 
 header{
   width: 100%;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
-  padding: 5px;
-  padding-left: 10px;
-  margin-left: 0;
-  margin-bottom: 10px;
-  background: white;
-  color:black;
+  background-color: #ffffff;
+  margin: 0px 0px 10px 0px;
+  padding: 0;
+  top:0;
   text-align: center;
 }
 
@@ -401,15 +416,10 @@ h1 {
 }
 
 #main {
-  background: #fff;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  background-color: #fff;
   height: 100%;
   padding: 10px;
-}
-
-
-#nav{
-
 }
 
 {% endhighlight %}
