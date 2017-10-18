@@ -225,7 +225,7 @@ yields
 
 [Screenshot](https://i.imgur.com/yOowvLN.png)
 
-**Note**: <BR> is next line
+**Note**: {% highlight HTML %}<BR>{% endhighlight %} is next line
 
 ----
 
