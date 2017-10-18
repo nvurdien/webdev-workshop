@@ -434,12 +434,13 @@ yields
 Create a CSS document that styles the HTML page you created in the previous tutorial with all the following:
 
   * Have all the 'li' tags be red.
-  * Have all the h1 tags be a hex code color selected from <a href="http://htmlcolorcodes.com/color-picker/">here</a>.
-  * Create an **index** called favorite and set the color property to be your favorite color selected from <a href="http://htmlcolorcodes.com/color-picker/">here</a>.
-  * Create a **class** called useful and set the color property to be any color selected from <a href="http://htmlcolorcodes.com/color-picker/">here</a>.
+  * Have all the h1 tags be a hex code color selected from <a href="http://htmlcolorcodes.com/color-picker/" target="_blank">here</a>.
+  * Create an **index** called favorite and set the color property to be your favorite color selected from <a href="http://htmlcolorcodes.com/color-picker/" target="_blank">here</a>.
+  * Create a **class** called useful and set the color property to be any color selected from <a href="http://htmlcolorcodes.com/color-picker/" target="_blank">here</a>.
   * Set an 'li' item from your favorites section to have an **id** favorite.
   * Set 'li' items bold, italic, and underline with **class** useful.
 
+<button class="fancy" href="https://nvurdien.github.io/webdev-workshop/guides/3-Javascript-Tutorial/">Next</button>
 
 ----
 
