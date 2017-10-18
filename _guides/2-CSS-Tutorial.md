@@ -442,6 +442,8 @@ Create a CSS document that styles the HTML page you created in the previous tuto
 
 <a href="https://nvurdien.github.io/webdev-workshop/guides/1-HTML-Tutorial/" class="button fancy pull-left">Back to HTML</a>
 <a class="button fancy pull-right" href="https://nvurdien.github.io/webdev-workshop/guides/3-Javascript-Tutorial/">On To Javascript</a>
+<BR><BR>
+
 
 ----
 

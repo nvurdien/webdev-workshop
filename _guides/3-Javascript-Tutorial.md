@@ -463,6 +463,8 @@ Create a Javascript, CSS, and HTML document that implement the following:
   * Have the created div have the same mouseleave, mouseenter, and click effect the example does
 
 <a href="https://nvurdien.github.io/webdev-workshop/guides/2-CSS-Tutorial/" class="button fancy pull-left">Back to CSS</a>
+<BR><BR>
+
 
 ----
 <h2>References</h2>

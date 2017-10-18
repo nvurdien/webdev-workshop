@@ -243,6 +243,7 @@ Make sure to **use headers to divide each of these activities** on a single HTML
 
 
 <a href="https://nvurdien.github.io/webdev-workshop/guides/2-CSS-Tutorial/" class="button fancy pull-right">On to CSS</a>
+<BR><BR>
 
 ----
 
