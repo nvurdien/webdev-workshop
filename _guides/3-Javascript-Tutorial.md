@@ -448,7 +448,7 @@ $( "div.test" ).on({
 {% endhighlight %}
 
 Check it out here!
-<script async src="//jsfiddle.net/eprhx1sj/embed/"></script>
+<script async src="//jsfiddle.net/eprhx1sj/embed/result/"></script>
 
 ----
 
