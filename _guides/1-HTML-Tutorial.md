@@ -242,7 +242,7 @@ Create an HTML document with all the following:
 Make sure to **use headers to divide each of these activities** on a single HTML page and **use the template** given above.
 
 
-<a href="https://nvurdien.github.io/webdev-workshop/guides/2-CSS-Tutorial/" class="button fancy">On to CSS</a>
+<a href="https://nvurdien.github.io/webdev-workshop/guides/2-CSS-Tutorial/" class="button fancy pull-right">On to CSS</a>
 
 ----
 

@@ -462,6 +462,8 @@ Create a Javascript, CSS, and HTML document that implement the following:
   * Create a div that shows the number of times the vowel and consonant button was pressed
   * Have the created div have the same mouseleave, mouseenter, and click effect the example does
 
+<a href="https://nvurdien.github.io/webdev-workshop/guides/2-CSS-Tutorial/" class="button fancy pull-left">Back to CSS</a>
+
 ----
 <h2>References</h2>
   * <a href="http://webdev.slides.com/coltsteele/javascript-basics-57#/7" target="_blank">Javascript Basics</a>
