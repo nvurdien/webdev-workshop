@@ -426,7 +426,7 @@ h1 {
 
 yields
 
-<img src="https://i.imgur.com/VXGO3Il.png">
+<img src="https://i.imgur.com/objfNMu.png">
 
 ----
 

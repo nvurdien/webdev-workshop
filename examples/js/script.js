@@ -1,25 +1,31 @@
-//click
-//fade
-//keypress
-//on
-
 var button = document.getElementById("clickable");
 
-var button2 = $("#clickable2");
-
-button.click(function() {
+$("#clickable").click(function() {
   $(".fade").fadeToggle("slow", "linear");
 });
 
-button2.keypress(function() {
-  $(".slide").slideToggle("slow", "linear");
+$(document).keyup(function(event) {
+  if(event.keyCode == 68 || event.keyCode == 117) //Play around with your keys to see what keys activate the slide
+    $(".slide").slideUp("slow");
+  if(event.keyCode == 85 || event.keyCode == 100)
+    $(".slide").slideDown("slow");
+});
+
+$(document).keypress(function(event) {
+  document.getElementById("play").innerHTML += "<BR>You have pressed key "+ event.key;
 });
 
 //Recommended way
-$(".clickable3").on( "click",function() {
+$(".clickable2").on( "click" ,function() {
   $(".fade").fadeToggle("slow", "linear");
 });
 
-document.getElementsByClass("clickable4").on( "keypress",function() {
-  $(".slide").slideToggle("slow", "linear");
+$( "div.test" ).on({
+  click: function() {
+    $( this ).toggleClass( "active" );
+  }, mouseenter: function() {
+    $( this ).addClass( "inside" );
+  }, mouseleave: function() {
+    $( this ).removeClass( "inside" );
+  }
 });

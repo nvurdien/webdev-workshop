@@ -279,6 +279,9 @@ There are several places where you can write scripts. You can create a script ta
 <!DOCTYPE html>
 <html>
   <head>
+  <script type="text/javascript">
+    console.log("hello world");
+  </script>
     <title>Home Page</title>
   </head>
   <body>
@@ -343,8 +346,8 @@ Here are a few examples:
 
 {% highlight Javascript %}
 
-document.getElementById("favorite").innerHTML;
-document.getElementsByClass("useful").innerHTML;
+document.getElementById("favorite");
+document.getElementsByClassName("useful");
 
 {% endhighlight %}
 
@@ -352,14 +355,14 @@ versus
 
 {% highlight Javascript %}
 
-$("#favorite").innerHTML; //document.getElementById("favorite").innerHTML;
-$(".useful").innerHTML; //document.getElementsByClass("useful").innerHTML;
+$("#favorite"); //document.getElementById("favorite");
+$(".useful"); //document.getElementsByClassName("useful");
 
 {% endhighlight %}
 
 **How do I include JQuery?**
 
-We use either a Content Delivery Network or CDN for short which is a link online that serves content which in this case is the script file. Programmers generally use a CDN because users usually already have the CDN file link downloaded. Otherwise if your server is quick enough you can host the JQuery file locally by simply downloading the script file from their website.
+We use either a Content Delivery Network or CDN for short which is a link online that serves content which in this case is the script file. Programmers generally use a CDN because users usually already have the CDN file link downloaded. Otherwise if your server is quick enough you can host the JQuery file locally by simply downloading the script file from their website. Make sure the JQuery file is included before your Javascript files or script tags.
 
 
 ----
@@ -368,28 +371,96 @@ We use either a Content Delivery Network or CDN for short which is a link online
 The html document
 {% highlight HTML %}
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!--Jquery CDN-->
+    <link rel="stylesheet" href="css/style2.css"/>
     <title>Javascript Demo</title><!--Title of the page usually appears on tab-->
   </head>
   <body>
+      <img class="fade" src="https://i.imgur.com/6WrnLjg.jpg" height="100">
+      <img class="fade" src="https://i.imgur.com/BEzTVoj.jpg" height="100">
+      <img class="fade" src="https://i.imgur.com/ihSqFXz.png" height="100">
+      <img class="slide" src="https://i.imgur.com/aWmKefJ.jpg" height="100">
+      <img class="slide" src="https://i.imgur.com/CA54uGd.jpg" height="100">
+      <img class="slide" src="https://i.imgur.com/Z9dJKqw.jpg" height="100">
+      <div class="test">Click me!</div>
+      <BR><BR>
+      <button id="clickable">Click to Fade</button>
+      <button class="clickable2">Click to Fade</button>
 
+      <div id="play"></div>
   </body>
+  <script src="js/script.js"></script>
 </html>
 {% endhighlight %}
 
-The Javascript file
-{% highlight Javascript %}
-
-
-
+{% highlight CSS %}
+.test {
+    color: #000;
+    padding: .5em;
+    width: 50%;
+  }
+.inside {
+  background-color: black;
+  color: white;
+}
+.active {
+  color: #900;
+}
 {% endhighlight %}
 
+
+The Javascript file
+{% highlight Javascript %}
+var button = document.getElementById("clickable");
+
+$("#clickable").click(function() {
+  $(".fade").fadeToggle("slow", "linear");
+});
+
+$(document).keyup(function(event) {
+  if(event.keyCode == 68 || event.keyCode == 117) //Play around with your keys to see what keys activate the slide
+    $(".slide").slideUp("slow");
+  if(event.keyCode == 85 || event.keyCode == 100)
+    $(".slide").slideDown("slow");
+});
+
+$(document).keypress(function(event) {
+  document.getElementById("play").innerHTML += "<BR>You have pressed key "+ event.key;
+});
+
+//Recommended way
+$(".clickable2").on( "click" ,function() {
+  $(".fade").fadeToggle("slow", "linear");
+});
+
+$( "div.test" ).on({
+  click: function() {
+    $( this ).toggleClass( "active" );
+  }, mouseenter: function() {
+    $( this ).addClass( "inside" );
+  }, mouseleave: function() {
+    $( this ).removeClass( "inside" );
+  }
+});
+{% endhighlight %}
+
+Check it out here!
+<script async src="//jsfiddle.net/eprhx1sj/embed/"></script>
 
 ----
 
 <h2>Try it for Yourself</h2>
+Create a Javascript, CSS, and HTML document that implement the following:
 
+  * Include JQuery with a CDN
+  * Create a list of words starting with different letters of the alphabet (26 words)
+  * Create a button that toggles the slide feature with the vowel items items in a list
+  * Create a button that toggles the fade feature with consonant items in a list
+  * Create a div that shows the number of times the vowel and consonant button was pressed
+  * Have the created div have the same mouseleave, mouseenter, and click effect the example does
 
 ----
 <h2>References</h2>
