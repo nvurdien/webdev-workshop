@@ -42,6 +42,6 @@ Are you a beginner at Web Development? Go with HTML/CSS/Javascript
 
 So now that you have picked your desired template/theme please follow the links below to lead you to a tutorial on how to set it up!
 <BR>
-[HTML/CSS/Javascript Template Websites](https://nvurdien.github.io/webdev-workshop/guides/01-aHTML-CSS-JAVASCRIPT-PERSONALSITE-tutorial/)
+[HTML/CSS/Javascript Template Websites](https://nvurdien.github.io/webdev-workshop/guides/5-HTML-CSS-JAVASCRIPT-PERSONALSITE-tutorial/)
 <BR>
-[Jekyll Template Websites](https://nvurdien.github.io/webdev-workshop/guides/01-htjekyll-PERSONALSITE-tutorial/)
+[Jekyll Template Websites](https://nvurdien.github.io/webdev-workshop/guides/6-jekyll-PERSONALSITE-tutorial/)
