@@ -317,7 +317,7 @@ The body tag with the background property changed makes the entire page light gr
 
 **Box Model**
 
-<img src=https://i.stack.imgur.com/PeSIJ.gif>
+<img src="https://i.stack.imgur.com/PeSIJ.gif">
 
 **Content** is where all the text, images and other stuff you included in the box go.
 **Padding** is used to move content away from the edge of the box
