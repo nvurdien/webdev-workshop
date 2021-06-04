@@ -250,3 +250,4 @@ Make sure to **use headers to divide each of these activities** on a single HTML
 
 <h2>References</h2>
   * <a href="http://webdev.slides.com/coltsteele/deck-7-50#/" target="_blank">Intro to HTML</a>
+  * <a href="https://www.websiteplanet.com/blog/html-guide-beginners/" target="_blank">Basic HTML Codes for Beginners</a>
